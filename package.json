@@ -6,6 +6,8 @@
   "scripts": {
     "test": "mocha --require ts-node/register --watch-extensions ts 'test/**/*.ts'",
     "start": "node dist/app.js",
+    "format": "prettier --write src/app.ts",
+    "lint": "tslint -p tsconfig.json",
     "build": "tsc -p ."
   },
   "repository": {
@@ -24,7 +26,10 @@
     "@types/node": "^16.9.2",
     "chai": "^4.3.4",
     "mocha": "^9.1.1",
+    "prettier": "^2.4.1",
     "ts-node": "^10.2.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.4.3"
   }
 }
