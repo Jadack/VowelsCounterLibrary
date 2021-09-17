@@ -1,6 +1,6 @@
 {
   "name": "vowels-counter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Vowel counting library made in TypeScript.",
   "main": "lib/app.js",
   "types": "lib/app.d.ts",
