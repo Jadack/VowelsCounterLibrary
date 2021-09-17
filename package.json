@@ -1,8 +1,9 @@
 {
   "name": "vowels-counter",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Vowel counting library made in TypeScript.",
-  "main": "index.js",
+  "main": "src/app.ts",
+  "type": "module",
   "scripts": {
     "test": "mocha --require ts-node/register --watch-extensions ts 'test/**/*.ts'",
     "start": "node dist/app.js",
